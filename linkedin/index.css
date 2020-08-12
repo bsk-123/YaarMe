@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+p,h2{
+    margin: 0;
+    padding: 0;
+}
+.mobile{
+    display: none !important;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #204051;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.nav11{
+    display: flex;
+}
+.nav-1,.search,.options,.menu{
+    display: inline-block;
+    margin: 0 ;
+}
+.search input{
+    width: 230px;
+    border: 0px ;
+    margin: 0 0 5px 10px;
+    padding: 0;
+    background-color: inherit;
+    font-size: 17px;
+}
+.search input:focus{
+    outline: none;
+}
+.search:hover{
+    background-color: whitesmoke;
+}
+.bi{
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.bi:hover{
+    transform: scale(1.5,1.5);
+}
+.pr{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin: 8px 10px 0 0;
+    cursor: pointer;
+}
+.bii{
+    width: 45px;
+    height: 40px;
+    margin-top: 8px;
+    float: left;
+    cursor: pointer;
+}
+.grid{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.grid:hover{
+    transform: scale(-0.8,-0.8);
+}
+.bb{
+    display: none !important;
+}
+.si{
+    width: 12px;
+}
+.options ul{
+    list-style: none;
+    margin: 10px 0 0  0;
+}
+.options ul li{
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+.options ul li p{
+    font-size: 15px;
+}
+.search{
+    float: right;
+    height: 29px;
+    margin: 8px 0 0 5px;
+    background-color: #eeeeee;
+    padding: 10px 8px 0px 8px;
+    border-radius: 2px;
+}
+.try{
+    
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.try p{
+    text-align: center;
+    color: goldenrod;
+    cursor: pointer;
+}
+.btm{
+    display: none;
+}
+.try p:hover{
+    color: yellow;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content{
+    box-shadow: 0 0 2px 2px grey ;
+    padding: 15px 0;
+    margin-top: 10px;
+    width: 629.5px;
+}
+.head{
+    display: flex;
+    padding: 10px 15px 0px 15px;
+}
+.follow{
+    float: right;
+    margin: 15px 0px 0 0;
+    color: blue;
+    cursor: pointer;
+}
+.poi{
+    width: 629px; height: 300px;
+}
+.title{
+    padding: 0 15px;
+}
+.tit-2{
+    float: right;
+    margin-left: 15px;
+}
+.tit-p{
+    margin: 15px 0 15px 0;
+}
+.see{
+    color: grey;
+    cursor: pointer;
+}
+.see:hover{
+    text-decoration: underline;
+}
+.mc,.ham{
+    display: none;
+}
+.propic{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+}
+.reactions{
+    padding: 5px 10px;
+}
+.reactions span
+{
+ margin: 0;
+ cursor: pointer;
+ color: #708090;
+}
+.frnds span{
+    margin: 0 8px 0 8px;
+    font-size: 18px;
+    color: 	#696969;
+    cursor: pointer;
+}
+.fr{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.post{
+    float: left;
+    position: relative;
+}
+.pp{
+ width: 80px;
+ height: 80px;
+ border-radius: 50px;
+ cursor: pointer;
+}
+.online{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.ham-menu{
+    display: none;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom,#8fcfd1 16%,white 0%);
+    width: 65%;
+    height: 100%;
+    transform: translateX(-1000px);
+    transition: 0.5s;
+}
+.pr{
+    width: 40%;
+}
+.ham-menu .profile{
+    position: relative;
+    margin-bottom: 10px;
+}
+.ham-menu .night{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ham-menu .down{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ham-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.ham-menu ul li{
+    margin: 13px 0;
+    cursor: pointer;
+}
+.ham-menu ul li:hover{
+    color: grey;
+}
+.hi{
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+.ham-opt{
+    padding-top: 10px;
+}
+@media screen and (max-width: 900px)
+{
+    nav{
+        padding: 0;
+    }
+    .mobile{
+        display: flex !important; 
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+    .ham-menu{
+        display: inline-block;
+    }
+    .ham{
+        display: inline-block;
+        width: 20px;
+        height: 20px; 
+        margin: 20px 0 0 8px;
+        cursor: pointer;
+    }
+    .pr,.bi{
+        margin: 8px;
+    }
+    .mr,.follow,.br{
+        display: none;
+    }
+    hr{
+        color: red;
+    }
+    .search input{
+        width: inherit;
+        font-size: inherit;
+        margin: 0;
+    }
+    .search{
+        width: 75%;
+        margin: 8px 20px 0 5px;
+        background-color: #eeeeee;
+        border-radius: 2px;
+    }
+    .desktop{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+        padding: 0 13px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .poi{
+        width: 100%;
+    }
+    .reactions{
+        position: relative;
+        width: auto;
+        margin-top: 10px;
+    }
+    .cmnts{
+        position: absolute;
+        right: 20px;
+    }
+    .fr{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+        height: 20px;
+    }
+    .frnds{
+        display: grid ;
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+    .frnds span{
+        font-size: 15px;
+        text-align: center;
+    }
+    .btm{
+        display: grid !important;
+        grid-template-columns: repeat(5,1fr);
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    hr{
+        margin: 20px 0;
+    }
+    .bb{
+        display: inline !important;
+    }
+}

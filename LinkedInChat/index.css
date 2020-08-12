@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+nav{
+    background-color: #0074B1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    box-shadow: 0 -5px 5px 3px grey;
+    color: white;
+}
+.hi{
+    height: 20px;
+    width: 20px;
+}
+.n1{
+    display: flex;
+    align-content: center;
+}
+.opt ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.opt li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.dp{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+}
+.search{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 13px 8px 13px;
+}
+.s1{
+    display: flex;
+}
+.s1 input{
+    border: none;
+    padding: 5px 8px ;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    opacity: 0.3;
+}
+.messages{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.ot{
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+    padding: 10px 0;
+}
+.ot div{
+    font-size: 14px;
+    margin: 0 8px;
+    padding: 5px 13px 8px 13px;
+    border-radius: 30px;
+    background-color: #E6EAEB;
+    color: rgb(49, 44, 44);
+}
+.ot div:hover{
+    cursor: pointer;
+    background-color: #0076AE;
+    color: white;
+}
+.chats{
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    flex: 1;
+}
+.info p{
+    margin: 2px 0 0 3px;
+    font-size: 1rem;
+}
+.name{
+    color: #44C3B8;
+    font-size: 18px;
+}
+
+.his{
+    color: grey;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.stats{
+    color: #E6EAEB;
+}
+.ppp{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.online{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    width: 8px;
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: white;
+}
+.ls{
+    font-size: 0.8rem;
+    color: slategray;
+}
+.ot::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+.ot{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
